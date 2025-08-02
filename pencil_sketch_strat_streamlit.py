@@ -1,4 +1,3 @@
-# import os
 import streamlit as st
 import cv2
 import numpy as np
@@ -42,6 +41,7 @@ if uploaded_file is not None:
 
     st.subheader("Pencil Sketch")
     st.image(sketch, use_container_width=True, channels="GRAY")
+
 
 
 
