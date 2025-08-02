@@ -1,4 +1,5 @@
 import streamlit as st
+pip install opencv-python
 import cv2
 import numpy as np
 from PIL import Image
@@ -41,4 +42,5 @@ if uploaded_file is not None:
 
     st.subheader("Pencil Sketch")
     st.image(sketch, use_container_width=True, channels="GRAY")
+
 
